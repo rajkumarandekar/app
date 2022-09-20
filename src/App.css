@@ -1,0 +1,35 @@
+.main-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 100vh;
+  flex-direction: column;
+  min-width: 100vw;
+}
+.task-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100vw;
+}
+.add-button {
+  width: 150px;
+  height: 45px;
+  border-style: none;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.form {
+  width: 100vw;
+}
+.input {
+  width: 85vw;
+  height: 45px;
+  margin-left: 1em;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-size: 20px;
+}
